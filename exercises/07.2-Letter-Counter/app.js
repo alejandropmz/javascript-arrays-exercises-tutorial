@@ -3,4 +3,16 @@ let counts = {};
 
 // your code here
 
+for (let i = 0; i < par.length; i++){
+    if (par[i].toLowerCase() == " ")continue;
+    else if (counts[par[i].toLowerCase()] == undefined){
+        counts[par[i].toLowerCase()] = 1;
+    }
+    else{
+        counts[par[i].toLowerCase()] = counts[par[i].toLowerCase()] + 1
+    }
+}
+    
+
+
 console.log(counts);
