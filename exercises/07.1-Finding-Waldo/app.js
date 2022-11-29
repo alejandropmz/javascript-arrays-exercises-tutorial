@@ -2,9 +2,11 @@ let people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darne
 
 //loop here to find waldo, use the if conditionals
 
-for (let i = 0; i < people.length; i++){
+for (let i=0; i<people.length; i++){
     if (people[i].toLowerCase() == "waldo"){
-        console.log(i);
+        console.log(i)
+        console.log(people[i])
+    }else{
+        continue
     }
-    else continue;
 }
