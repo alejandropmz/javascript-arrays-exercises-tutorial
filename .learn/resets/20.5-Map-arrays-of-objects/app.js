@@ -6,11 +6,8 @@ let people = [
 	{ name: 'Steve', birthDate: new Date(2003,4,24) }
 ];
 
-let age = people.birthDate - new Date
-
 let simplifier = function(person){
-	return ("Hello, my name is "+person.name+" and I am "+age+" s");
+	return person.name;
 };
 
 console.log(people.map(simplifier));
-

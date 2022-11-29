@@ -2,6 +2,7 @@ let people = ['juan','ana','michelle','daniella','stefany','lucy','barak', 'emil
 
 let newPeople = [];
 
+
 //your code below
 
 function deletePerson(person) {
@@ -15,6 +16,7 @@ function deletePerson(person) {
     }
     return newPeople;
 }
+
 
 console.log(deletePerson('daniella'));
 console.log(deletePerson('juan'));
